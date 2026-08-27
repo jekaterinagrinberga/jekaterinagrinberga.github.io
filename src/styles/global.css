@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Playfair+Display:ital,wght@1,500;1,600&family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+
+:root {
+  --color-text: #000000;
+  --color-muted: #54595f;
+  --color-accent: #61ce70;
+  --color-bg: #ffffff;
+  --color-bg-tint: #ecf8fd;
+  --font-heading: 'Anton', sans-serif;
+  --font-body: 'Roboto', sans-serif;
+  --font-logo: 'Playfair Display', 'Times New Roman', serif;
+  --max-width: 1140px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--color-text);
+  background: var(--color-bg);
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+}
+
+.wrap {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  font-weight: 400;
+  margin: 0 0 0.6em;
+}
+
+.btn {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  color: var(--color-text);
+  border-bottom: 2px solid var(--color-accent);
+  padding-bottom: 4px;
+  transition: color 0.2s;
+}
+
+.btn:hover {
+  color: var(--color-accent);
+}

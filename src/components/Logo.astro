@@ -1,0 +1,59 @@
+---
+interface Props {
+  size?: 'small' | 'large';
+}
+
+const { size = 'small' } = Astro.props;
+---
+
+<a href="/" class:list={['logo', size]} aria-label="Jekaterina Grinberga — home">
+  <svg viewBox="0 0 440 70" role="img" aria-hidden="true" focusable="false">
+    <defs>
+      <filter id="logo-shadow" x="-10%" y="-10%" width="120%" height="140%">
+        <feDropShadow dx="0" dy="3" stdDeviation="2.2" flood-color="#000000" flood-opacity="0.28" />
+      </filter>
+    </defs>
+    <text
+      x="4"
+      y="46"
+      textLength="432"
+      lengthAdjust="spacingAndGlyphs"
+      class="logo-text"
+      filter="url(#logo-shadow)"
+    >Jekaterina Grinberga</text>
+  </svg>
+</a>
+
+<style>
+  .logo {
+    display: inline-block;
+    color: var(--color-text);
+    text-decoration: none;
+    line-height: 0;
+  }
+
+  .logo svg {
+    display: block;
+    height: 34px;
+    width: auto;
+  }
+
+  .logo-text {
+    font-family: var(--font-logo);
+    font-style: italic;
+    font-weight: 500;
+    font-size: 46px;
+    letter-spacing: 0.6px;
+    fill: currentColor;
+  }
+
+  .logo.large svg {
+    height: 50px;
+  }
+
+  @media (max-width: 480px) {
+    .logo.small svg {
+      height: 27px;
+    }
+  }
+</style>

@@ -1,0 +1,87 @@
+---
+import Logo from './Logo.astro';
+
+const nav = [
+  { label: 'Home', href: '/' },
+  { label: 'Blog', href: '/blog/' },
+];
+const currentPath = Astro.url.pathname;
+---
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <Logo size="small" />
+    <nav aria-label="Main menu">
+      <ul>
+        {
+          nav.map((item) => (
+            <li>
+              <a href={item.href} aria-current={currentPath === item.href ? 'page' : undefined}>
+                {item.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    box-shadow: 0 0 38px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 12px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--color-muted);
+    min-height: 44px;
+    padding: 0;
+    border-bottom: 3px solid transparent;
+    transition: color 0.2s, border-color 0.2s;
+    white-space: nowrap;
+  }
+
+  nav a:hover,
+  nav a[aria-current='page'] {
+    color: var(--color-text);
+    border-bottom-color: var(--color-text);
+  }
+
+  @media (max-width: 480px) {
+    .header-inner {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    nav ul {
+      gap: 16px;
+    }
+
+    nav a {
+      font-size: 14px;
+    }
+  }
+</style>

@@ -6,5 +6,13 @@ blogIntro: |
 
   You will find articles about corporate sustainability principles, best practices and real examples, what companies are doing right now.
 aboutText: |
-  I attempt to live the sustainable life to improve its quality and protect our ecosystem from an excessive waste. I want to make a significant difference because I do care about environmental and social well-being in a long-term.
+  I help growing companies turn sustainability from a reporting obligation into a strategy that works for the business.
+
+  I started my career in banking and fintech, where I spent ten years leading international teams, managing risk and negotiating with executives. I then moved into sustainability, and I now lead it at a fast-growing global e-commerce technology company. There I built a first sustainability strategy from scratch, set up supplier due diligence, measured the company's emissions across Scope 1, 2 and 3, and published its first ESG report.
+
+  That path shapes how I see the topic. Sustainability is about risk, resilience and good decisions, and it only works when it is built into how a business actually operates.
+
+  On this site I write about sustainability strategy, supply chain transparency and what companies are really doing about ESG. I also speak at conferences and events.
+
+  If you'd like to invite me to speak or just talk shop, get in touch at jekaterina.grinberga@gmail.com.
 ---

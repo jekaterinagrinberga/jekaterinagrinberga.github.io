@@ -1,5 +1,4 @@
 ---
-import Logo from './Logo.astro';
 
 const nav = [
   { label: 'Home', href: '/' },
@@ -10,7 +9,6 @@ const currentPath = Astro.url.pathname;
 
 <header class="site-header">
   <div class="wrap header-inner">
-    <Logo size="small" />
     <nav aria-label="Main menu">
       <ul>
         {
@@ -35,7 +33,7 @@ const currentPath = Astro.url.pathname;
   .header-inner {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     flex-wrap: nowrap;
     gap: 12px;
     padding-top: 14px;

@@ -7,6 +7,14 @@ const { heroName, tagline, blogIntro, aboutText } = home.data;
 const blogIntroParagraphs = blogIntro.trim().split(/\n\s*\n/);
 const aboutParagraphs = aboutText.trim().split(/\n\s*\n/);
 
+// Turn **text** in home.md into bold, escaping everything else
+const withBold = (text: string) =>
+  text
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+
 const structuredData = {
   '@context': 'https://schema.org',
   '@type': 'Person',
@@ -35,43 +43,36 @@ const structuredData = {
     </div>
     <div class="hero-text">
       <h1>{heroName}</h1>
-      <p class="tagline">{tagline}</p>
-    </div>
-  </section>
-
-  <section class="blog-teaser">
-    <div class="wrap blog-teaser-inner">
-      <div class="big-letters" aria-hidden="true">
-        <span>B</span><span>L</span><span>O</span><span>G</span>
-      </div>
-      <div class="blog-teaser-content">
-        <img
-          src="/images/blog-teaser.jpg"
-          alt=""
-          loading="lazy"
-        />
-        {blogIntroParagraphs.map((paragraph) => <p>{paragraph}</p>)}
-        <a class="btn" href="/blog/">read the blog ⟶</a>
-      </div>
+      <p class="tagline" set:html={withBold(tagline)} />
     </div>
   </section>
 
   <section class="about wrap">
-    <div class="about-photo">
-      <img
-        src="/images/about.jpg"
-        alt={heroName}
-        width="664"
-        height="1024"
-        loading="lazy"
-      />
-    </div>
     <div class="about-content">
       <h2>about me</h2>
-      {aboutParagraphs.map((paragraph) => <p>{paragraph}</p>)}
+      {aboutParagraphs.map((paragraph) => <p set:html={withBold(paragraph)} />)}
       <a class="btn" href="https://www.linkedin.com/in/jekaterina-grinberga/" target="_blank" rel="noopener noreferrer">
         LinkedIn ⟶
       </a>
+    </div>
+  </section>
+
+  <section class="blog-teaser wrap">
+    <div class="blog-teaser-inner">
+      <div class="blog-teaser-content">
+        <h2>blog</h2>
+        {blogIntroParagraphs.map((paragraph) => <p set:html={withBold(paragraph)} />)}
+        <a class="btn" href="/blog/">read the blog ⟶</a>
+      </div>
+      <div class="blog-teaser-photo">
+        <img
+          src="/images/about.jpg"
+          alt={heroName}
+          width="724"
+          height="1086"
+          loading="lazy"
+        />
+      </div>
     </div>
   </section>
 </Layout>
@@ -82,7 +83,7 @@ const structuredData = {
     grid-template-columns: 1fr 2fr;
     align-items: center;
     gap: 48px;
-    padding: 64px 24px;
+    padding: 64px 24px 24px;
   }
 
   .hero-photo img {
@@ -91,85 +92,89 @@ const structuredData = {
     height: auto;
   }
 
+  .hero-text {
+    container-type: inline-size;
+  }
+
   .hero-text h1 {
-    font-size: clamp(40px, 6vw, 75px);
-    letter-spacing: 4px;
+    /* Scale with the text column so the name always stays on one line */
+    font-size: min(62px, 9.8cqi);
+    letter-spacing: 0.06em;
+    white-space: nowrap;
     margin-bottom: 0.3em;
   }
 
-  .tagline {
+  /* Body text in all three sections matches the intro under the name */
+  .tagline,
+  .about-content p,
+  .blog-teaser-content p {
+    font-family: var(--font-body);
     font-size: 20px;
-    margin: 0;
     color: var(--color-muted);
+    text-align: justify;
+  }
+
+  .tagline {
+    margin: 0;
+  }
+
+  .tagline :global(strong),
+  .about-content p :global(strong),
+  .blog-teaser-content p :global(strong) {
+    font-weight: 700;
+    color: var(--color-text);
+  }
+
+  .about-content p,
+  .blog-teaser-content p {
+    font-size: 18px;
   }
 
   .blog-teaser {
-    padding: 48px 0;
+    /* Same side padding as the hero so the photo column matches the top photo */
+    padding: 24px;
   }
 
   .blog-teaser-inner {
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 2fr 1fr;
     gap: 48px;
-    align-items: start;
-  }
-
-  .big-letters {
-    display: flex;
-    flex-direction: column;
-    font-family: var(--font-heading);
-    font-size: clamp(48px, 8vw, 96px);
-    line-height: 0.95;
-    letter-spacing: 2px;
-  }
-
-  .blog-teaser-content img {
-    width: 100%;
-    max-width: 480px;
-    height: auto;
-    border-radius: 4px;
-    margin-bottom: 24px;
+    align-items: center;
   }
 
   .blog-teaser-content p {
-    max-width: 60ch;
+    margin-bottom: 24px;
+  }
+
+  .blog-teaser-photo img {
+    width: 100%;
+    aspect-ratio: 819 / 1024;
+    height: auto;
+    object-fit: cover;
+    object-position: center 35%;
+    border-radius: 4px;
   }
 
   .about {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 48px;
-    align-items: center;
-    background: var(--color-bg-tint);
-    padding: 64px 24px;
+    background: #eef7ec;
+    padding: 40px 24px;
     border-radius: 4px;
   }
 
-  .about-photo img {
-    border-radius: 4px;
-    width: 100%;
-    height: auto;
-  }
-
+  .blog-teaser h2,
   .about-content h2 {
-    font-size: clamp(40px, 6vw, 75px);
+    /* Kept smaller than the name at the top (max 62px) */
+    font-size: clamp(26px, 3.6vw, 44px);
   }
 
   .about-content p {
-    max-width: 55ch;
     margin-bottom: 24px;
   }
 
   @media (max-width: 720px) {
     .hero,
-    .blog-teaser-inner,
-    .about {
+    .blog-teaser-inner {
       grid-template-columns: 1fr;
-    }
-
-    .big-letters {
-      flex-direction: row;
-      font-size: 48px;
     }
   }
 </style>

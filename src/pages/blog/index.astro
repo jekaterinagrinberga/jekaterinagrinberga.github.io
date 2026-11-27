@@ -45,6 +45,8 @@ const structuredData = {
       {
         cards.map(({ post, image, excerpt }) => (
           <article class="card">
+            {/* Invisible link covering the whole card, so a click anywhere opens the post */}
+            <a href={`/${post.id}/`} class="card-link" tabindex="-1" aria-hidden="true"></a>
             {image && (
               <a href={`/${post.id}/`} class="thumb" tabindex="-1">
                 <img src={image} alt="" loading="lazy" width="400" height="280" />
@@ -81,6 +83,7 @@ const structuredData = {
   }
 
   .card {
+    position: relative;
     display: flex;
     background: #fff;
     border-radius: 10px;
@@ -150,13 +153,30 @@ const structuredData = {
     margin-bottom: 12px;
   }
 
-  .card h2 a {
-    text-decoration: none;
-    color: var(--color-text);
+  .card-link {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
   }
 
-  .card h2 a:hover {
-    color: var(--color-accent);
+  /* Title and button sit above the card link so their own hover lift still works */
+  .card h2 a,
+  .read-more {
+    position: relative;
+    z-index: 2;
+  }
+
+  .card h2 a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--color-text);
+    transition: transform 0.15s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  /* Lifts slightly on hover, like the Read more buttons */
+  .card h2 a:hover,
+  .card h2 a:focus-visible {
+    transform: translateY(-1px);
   }
 
   .excerpt {
@@ -204,12 +224,15 @@ const structuredData = {
   }
 
   @media (prefers-reduced-motion: reduce) {
-    .read-more {
+    .read-more,
+    .card h2 a {
       transition: none;
     }
 
     .read-more:hover,
-    .read-more:focus-visible {
+    .read-more:focus-visible,
+    .card h2 a:hover,
+    .card h2 a:focus-visible {
       transform: none;
     }
   }

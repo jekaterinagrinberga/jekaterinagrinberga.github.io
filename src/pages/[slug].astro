@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import { getCollection, render } from 'astro:content';
 import { getFirstImage } from '../lib/postImage';
+import { addFigures } from '../lib/postFigures';
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts');
@@ -13,6 +14,8 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content } = await render(post);
+// Post HTML with pictures turned into floating figures with captions
+const postHtml = post.rendered?.html ? addFigures(post.rendered.html) : null;
 
 function formatDate(iso: string) {
   const d = new Date(iso);
@@ -55,20 +58,20 @@ const structuredData = {
     <h1>{post.data.title}</h1>
     <p class="date">{formatDate(post.data.date)}</p>
     <div class="content">
-      <Content />
+      {postHtml ? <Fragment set:html={postHtml} /> : <Content />}
     </div>
-    <a class="btn back" href="/blog/">⟵ back to blog</a>
+    <a class="back" href="/blog/">← Back to blog</a>
   </article>
 </Layout>
 
 <style>
+  /* Full page width, lined up with the header menu */
   .post {
-    padding: 48px 0 80px;
-    max-width: 780px;
+    padding: 48px 24px 80px;
   }
 
   h1 {
-    font-size: clamp(32px, 5vw, 56px);
+    font-size: clamp(16px, 2.5vw, 28px);
   }
 
   .date {
@@ -79,23 +82,93 @@ const structuredData = {
     margin-bottom: 32px;
   }
 
+  /* Same outline button as "Get in touch" on the homepage */
   .back {
+    display: inline-flex;
+    align-items: center;
+    min-height: 42px;
     margin-top: 48px;
+    padding: 0 24px;
+    border: 1px solid var(--color-text);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--color-text);
+    font-family: var(--font-body);
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: transform 0.15s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .back:hover,
+  .back:focus-visible {
+    transform: translateY(-1px);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .back {
+      transition: none;
+    }
+
+    .back:hover,
+    .back:focus-visible {
+      transform: none;
+    }
   }
 
   .content :global(p) {
     margin: 0 0 1.4em;
   }
 
-  .content :global(img) {
-    border-radius: 4px;
-    height: auto;
-    display: block;
-    margin: 2em auto;
+  /* Same text style as the About me section on the homepage */
+  .content :global(p),
+  .content :global(li) {
+    font-family: var(--font-body);
+    font-size: 18px;
+    color: var(--color-muted);
+    text-align: justify;
   }
 
-  .content :global(p:has(img)) {
+  /* Pictures float left or right with text wrapping around them.
+     Same width as the photos on the homepage (one third of the page row),
+     keeping each picture's own proportions */
+  .content :global(.post-figure) {
+    width: min(100%, calc((min(100vw, var(--max-width)) - 96px) / 3));
+    margin: 0.4em 0 1.4em;
+  }
+
+  .content :global(.float-left) {
+    float: left;
+    clear: left;
+    margin-right: 32px;
+  }
+
+  .content :global(.float-right) {
+    float: right;
+    clear: right;
+    margin-left: 32px;
+  }
+
+  .content :global(.post-figure img) {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+
+  .content :global(figcaption) {
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: var(--color-muted);
     text-align: center;
+  }
+
+  /* Nothing floats past the end of the post */
+  .content::after {
+    content: '';
+    display: block;
+    clear: both;
   }
 
   .content :global(h2),
@@ -103,8 +176,15 @@ const structuredData = {
     margin-top: 1.6em;
   }
 
+  /* Links look like the surrounding text, just underlined */
   .content :global(a) {
-    color: var(--color-accent);
+    color: inherit;
+    text-decoration: underline;
+  }
+
+  /* Links in lists, e.g. the reading lists at the end of posts */
+  .content :global(li a) {
+    font-weight: 700;
   }
 
   .content :global(blockquote) {
@@ -115,4 +195,22 @@ const structuredData = {
     color: var(--color-muted);
   }
 
+  @media (max-width: 720px) {
+    .content :global(p),
+    .content :global(li) {
+      font-size: 16px;
+      text-align: left;
+    }
+
+    .back {
+      font-size: 18px;
+    }
+
+    /* On phones pictures sit centred between paragraphs, 240px wide like the homepage */
+    .content :global(.post-figure) {
+      float: none;
+      width: min(100%, 240px);
+      margin: 1.4em auto;
+    }
+  }
 </style>

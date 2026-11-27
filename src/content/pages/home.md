@@ -13,6 +13,4 @@ aboutText: |
   That path shapes how I see the topic. Sustainability is about **risk, resilience and good decisions**, and it only works when it is built into how a business actually operates.
 
   On this site I write about sustainability strategy, supply chain transparency and what companies are really doing about ESG. I also **speak at conferences and events**.
-
-  If you'd like to invite me to speak or just talk shop, **get in touch** at **jekaterina.grinberga@gmail.com**.
 ---

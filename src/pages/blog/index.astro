@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 import { getFirstImage } from '../../lib/postImage';
+import { getExcerpt } from '../../lib/postExcerpt';
 
 const posts = (await getCollection('posts')).sort(
   (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
@@ -10,6 +11,8 @@ const posts = (await getCollection('posts')).sort(
 const cards = posts.map((post) => ({
   post,
   image: post.data.featuredImage ?? getFirstImage(post.body ?? ''),
+  // First two full sentences of the post
+  excerpt: getExcerpt(post.body ?? '', post.data.excerpt),
 }));
 
 function formatDate(iso: string) {
@@ -40,7 +43,7 @@ const structuredData = {
     <h1>Recent Blog Posts</h1>
     <div class="grid">
       {
-        cards.map(({ post, image }) => (
+        cards.map(({ post, image, excerpt }) => (
           <article class="card">
             {image && (
               <a href={`/${post.id}/`} class="thumb" tabindex="-1">
@@ -51,11 +54,9 @@ const structuredData = {
               <h2>
                 <a href={`/${post.id}/`}>{post.data.title}</a>
               </h2>
-              <p class="excerpt">{post.data.excerpt}</p>
+              <p class="excerpt">{excerpt}</p>
               <div class="card-footer">
-                <a class="read-more" href={`/${post.id}/`}>
-                  Read More »
-                </a>
+                <a class="read-more" href={`/${post.id}/`}>Read more →</a>
                 <span class="meta">{formatDate(post.data.date)}</span>
               </div>
             </div>
@@ -77,7 +78,6 @@ const structuredData = {
     flex-direction: column;
     gap: 28px;
     padding-bottom: 64px;
-    max-width: 820px;
   }
 
   .card {
@@ -95,13 +95,17 @@ const structuredData = {
   }
 
   .thumb {
+    position: relative;
     display: block;
     flex: 0 0 220px;
     overflow: hidden;
     background: var(--color-bg-tint);
   }
 
+  /* Image fills the card height instead of setting it */
   .thumb img {
+    position: absolute;
+    inset: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -129,6 +133,11 @@ const structuredData = {
       flex-basis: auto;
       aspect-ratio: 16 / 9;
     }
+
+    /* Justified text leaves big gaps between words on narrow screens */
+    .card .excerpt {
+      text-align: left;
+    }
   }
 
   .card h2 {
@@ -155,7 +164,11 @@ const structuredData = {
     font-size: 14px;
     line-height: 1.6;
     margin-bottom: 16px;
-    flex: 1;
+    text-align: justify;
+  }
+
+  .card-footer {
+    margin-top: auto;
   }
 
   .card-footer {
@@ -166,13 +179,39 @@ const structuredData = {
     border-top: 1px solid #f0f0f0;
   }
 
+  /* Same outline button as on the homepage */
   .read-more {
-    font-size: 12px;
-    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    min-height: 38px;
+    padding: 0 20px;
+    border: 1px solid var(--color-text);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--color-text);
+    font-family: var(--font-body);
+    font-size: 15px;
+    font-weight: 400;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     text-decoration: none;
-    color: var(--color-accent);
+    transition: transform 0.15s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .read-more:hover,
+  .read-more:focus-visible {
+    transform: translateY(-1px);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .read-more {
+      transition: none;
+    }
+
+    .read-more:hover,
+    .read-more:focus-visible {
+      transform: none;
+    }
   }
 
   .meta {

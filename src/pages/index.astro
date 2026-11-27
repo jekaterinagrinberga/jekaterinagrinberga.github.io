@@ -44,6 +44,9 @@ const structuredData = {
     <div class="hero-text">
       <h1>{heroName}</h1>
       <p class="tagline" set:html={withBold(tagline)} />
+      <div class="hero-actions">
+        <a class="contact-btn" href="mailto:jekaterina.grinberga@gmail.com">Get in touch →</a>
+      </div>
     </div>
   </section>
 
@@ -51,9 +54,7 @@ const structuredData = {
     <div class="about-content">
       <h2>about me</h2>
       {aboutParagraphs.map((paragraph) => <p set:html={withBold(paragraph)} />)}
-      <a class="btn" href="https://www.linkedin.com/in/jekaterina-grinberga/" target="_blank" rel="noopener noreferrer">
-        LinkedIn ⟶
-      </a>
+      <a class="contact-btn" href="https://www.linkedin.com/in/jekaterina-grinberga/" target="_blank" rel="noopener noreferrer">LinkedIn →</a>
     </div>
   </section>
 
@@ -62,7 +63,7 @@ const structuredData = {
       <div class="blog-teaser-content">
         <h2>blog</h2>
         {blogIntroParagraphs.map((paragraph) => <p set:html={withBold(paragraph)} />)}
-        <a class="btn" href="/blog/">read the blog ⟶</a>
+        <a class="contact-btn" href="/blog/">Read the blog →</a>
       </div>
       <div class="blog-teaser-photo">
         <img
@@ -117,6 +118,49 @@ const structuredData = {
   .tagline {
     margin: 0;
   }
+
+  .hero-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    margin-top: 32px;
+  }
+
+  .contact-btn {
+    display: inline-flex;
+    align-items: center;
+    min-height: 42px;
+    padding: 0 24px;
+    border: 1px solid var(--color-text);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--color-text);
+    /* Same font as the intro text above it */
+    font-family: var(--font-body);
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: transform 0.15s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  /* Lift slightly on hover instead of changing colour */
+  .contact-btn:hover,
+  .contact-btn:focus-visible {
+    transform: translateY(-1px);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .contact-btn {
+      transition: none;
+    }
+
+    .contact-btn:hover,
+    .contact-btn:focus-visible {
+      transform: none;
+    }
+  }
+
 
   .tagline :global(strong),
   .about-content p :global(strong),
@@ -175,6 +219,35 @@ const structuredData = {
     .hero,
     .blog-teaser-inner {
       grid-template-columns: 1fr;
+      gap: 24px;
+    }
+
+    .hero {
+      padding-top: 32px;
+    }
+
+    /* Smaller, centred photos so the name and text show up sooner */
+    .hero-photo img,
+    .blog-teaser-photo img {
+      width: min(100%, 240px);
+      margin: 0 auto;
+    }
+
+    /* Justified text leaves big gaps between words on narrow screens */
+    .tagline,
+    .about-content p,
+    .blog-teaser-content p {
+      text-align: left;
+    }
+
+    .tagline,
+    .contact-btn {
+      font-size: 18px;
+    }
+
+    .about-content p,
+    .blog-teaser-content p {
+      font-size: 16px;
     }
   }
 </style>

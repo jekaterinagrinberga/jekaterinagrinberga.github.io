@@ -2,11 +2,13 @@
 title: "Air Pollution"
 date: "2023-03-21"
 excerpt: "I started an investigation about air pollution in a hospital in Bangkok, waiting for a chest X-Ray, suffocating because of intense coughing. It was my second week living in Bangkok,"
+seoTitle: "Air Pollution in Bangkok: Causes, Effects and Solutions"
+description: "A personal look at Bangkok's air pollution: what drives the smog, from crop burning to 10 million vehicles, how PM2.5 harms health and what can help."
 featuredImage: "/images/IMG_7041-1024x768.jpeg"
 ---
 I started an investigation about air pollution in a hospital in Bangkok, waiting for a chest X-Ray, suffocating because of intense coughing. It was my second week living in Bangkok, and I had awful cough attacks, I was short of breath all the time, and I had very disturbing and frightening chest pain. I went to a hospital where doctors had excluded covid-19 and other respiratory illnesses before started to suspect acute allergies. They did skin tests to check for immediate allergic reactions to 50 different substances and defined that I indeed have severe allergies to dust, pollen, and consequently to air pollution. I spent the rest of my stay in Thailand wearing FFP2 or N95 respirators to reduce exposure to the problem. In this blog post, I will explore the causes and effects of air pollution in Bangkok and what can be done to address this issue.
 
-![](/images/IMG_7041-1024x768.jpeg)
+![Smog over Bangkok in March 2023](/images/IMG_7041-1024x768.jpeg)
 
 Smog over the Bangkok in March 2023
 
@@ -16,7 +18,7 @@ One of the causes of air pollution in Bangkok is vehicular emissions. With over 
 
 Two major factors are playing a role there. Annual monsoon’s airflow flips around at the end of November from a Southwest airflow, swiping moist air out of the Indian Ocean into Thailand, to a Northeast airflow with dry air swept down from the Asian continent. This annual monsoon change happens around the annual burning season when farmers traditionally burn their harvested plantations of rice, corn, and sugar to clear their fields quickly and easily. Most of these farms are located to the North and Northeast of Bangkok. These two phenomena combined, dry airflow blows pollution and smog down from the northern farmlands of Thailand’s mainland to Bangkok. Central and North Thailand suffer even more from the choking smoke.
 
-![](/images/dominik-kiss-j7wXfhojXtk-unsplash-1024x676.jpg)
+![Farmers burning off crop residue](/images/dominik-kiss-j7wXfhojXtk-unsplash-1024x676.jpg)
 
 Farmers traditionally burn off the crop residue
 
@@ -24,7 +26,7 @@ Farmers traditionally burn off the crop residue
 
 The country has made efforts to reduce its carbon footprint, but these measures have not been enough to curb the effects of air pollution on its citizens’ health. The Thai government has been postponing addressing the annual burning season, just warning to prevent illegal burning. However, there hasn’t been effective enforcement. Instead, Thailand media shows water cannons blasting thousands of liters of valuable water toward the skies doing literally nothing to tackle the air pollution crisis.
 
-![](/images/FIRMS_24hrs@103.229.54z-1024x546.jpg)
+![Map of fires identified by NASA satellites on March 21, 2023](/images/FIRMS_24hrs@103.229.54z-1024x546.jpg)
 
 Fires identified by NASA satellites on March 21, 2023
 
@@ -32,7 +34,7 @@ A long-term solution is to subsidize proper machinery for Thailand farmers to cl
 
 On the other hand, the government has implemented some measures to reduce emissions in the country. These include promoting the use of public transportation, such as buses and trains, and encouraging the use of electric vehicles. The government has also implemented stricter emissions standards for vehicles and industries and has launched public awareness campaigns to encourage individuals to take action to reduce air pollution, such as carpooling or using bicycles for short trips. This can reduce the number of vehicles on the road, reducing vehicular emissions and improving air quality. The Thai government has implemented measures to promote sustainable transportation, including expanding the Skytrain and subway systems.
 
-![](/images/vitalijs-barilo-gPtz7qmL3tU-unsplash-1024x768.jpg)
+![Traffic in Bangkok, which has more than 10 million registered vehicles](/images/vitalijs-barilo-gPtz7qmL3tU-unsplash-1024x768.jpg)
 
 There are more than 10 million registered vehicles in Bangkok
 

@@ -2,9 +2,11 @@
 title: "Essay on Energy Transition"
 date: "2023-04-25"
 excerpt: "The world is undergoing an energy transition, a fundamental shift from fossil fuels to renewable energy sources. This transition is being driven by various factors, including concerns about climate change,"
+seoTitle: "Energy Transition: Ways to Decarbonize and Key Barriers"
+description: "The shift from fossil fuels to renewables explained: ways to decarbonize the economy, from buildings to electric transport, and the barriers ahead."
 featuredImage: "/images/riccardo-annandale-7e2pe9wjL9M-unsplash-1024x821.jpg"
 ---
-![](/images/riccardo-annandale-7e2pe9wjL9M-unsplash-1024x821.jpg)
+![Hands holding a glowing light bulb](/images/riccardo-annandale-7e2pe9wjL9M-unsplash-1024x821.jpg)
 
 The world is undergoing an energy transition, a fundamental shift from fossil fuels to renewable energy sources. This transition is being driven by various factors, including concerns about climate change, the need for energy security, and technological advances. It is a complex and multifaceted process with far-reaching implications for the global economy, the environment, and our daily lives. Whether you are an energy industry professional, an environmental advocate, or simply a curious observer, the energy transition is a topic that will shape the world in the coming years. In this post, we will discuss some ways of decarbonizing our economy, what barriers are out there, and what the future may look like for us. I’m a big climate optimist, so all below are only part of me that is skeptical and with a pitch of critical thinking.
 
@@ -14,11 +16,11 @@ Let’s take meat consumption as the first example. About 15% of global greenhou
 
 The next example is about the impact on energy and carbon balance. Buildings are the greatest example of the longest-lasting structure, which wastes energy on a massive scale. According to the United Nations Environment Program, the built environment accounts for 39 percent of gross annual carbon emissions worldwide, a figure comprising both operational carbon, the ongoing carbon emissions from its day-to-day use, and embodied carbon — all the CO2 emitted in producing materials.
 
-![](/images/c-dustin-91AQt9p4Mo8-unsplash-1024x576.jpg)
+![High-rise buildings under construction with cranes](/images/c-dustin-91AQt9p4Mo8-unsplash-1024x576.jpg)
 
 The greatest opportunity there – building properly insulated walls and two layers of windows instead of three as most windows have now, would help to save a huge amount of energy. In India, for example, there is 25’C inside and maybe 40’C outside, aircon is going 24/7. In Siberia, it’s maybe 20’C inside and -40’C, so it is basically the same trend. We need properly insulated buildings to keep temperatures inside comfortable enough and not waste energy on heating so much or cooling down so dramatically. Buildings that are being built right now will be on this planet and impact our energy consumption for another 50-60 years. Isn’t it a missed opportunity to make an impact now which will last?
 
-![](/images/shawnanggg-S15r4VsQhY-unsplash-1-1024x768.jpg)
+![View from an airplane window over ships at sea](/images/shawnanggg-S15r4VsQhY-unsplash-1-1024x768.jpg)
 
 Regarding energy density, let’s talk about electrifying transport. Transportation sector generates 28% of global greenhouse gas emissions. Greenhouse gas emissions from transportation primarily come from burning fossil fuel for our cars, trucks, ships, trains, and planes. We will never fly with electricity. In this context, “never” means not until we have electric batteries, delivering electricity the same way kerosene oil can. We cannot decarbonize the shipping industry either. All clothes you are wearing right now, with a significant probability, were made in Southeast Asia and shipped to you by sea. If those containers crossing the Atlantics transitioned towards electricity, they would carry another thousand tonnes of batteries.
 
@@ -28,7 +30,7 @@ Electric cars won’t save the planet, that’s my next example. Our world is fu
 
 Also, there is not really such a thing as an electric car. If I drove an electric car in Norway, it would have been almost 100% hydroelectric car. If I drove an electric car in China, it would be more than 70% coal car. 70% of all electricity in China is generated from coal. We mine coal, burn it, transport generated energy long distances (losing around 6% of it on the way because of energy leaks), and then we power an electric car with this energy.
 
-![](/images/michael-marais-HjV_hEECgcM-unsplash-1024x558.jpg)
+![Electric vehicle charging bay painted on the ground](/images/michael-marais-HjV_hEECgcM-unsplash-1024x558.jpg)
 
 China is getting into the electric car industry, they are one of the fastest transitioning into electric cars. At the same time, 58 million Chinese tourists will travel internationally in 2023, which is still 40% of the number of travelers in 2019 before the pandemic, with Italy being the most popular destination. China uses electric cars and, at the same time, uses kerosene for international flights. 
 

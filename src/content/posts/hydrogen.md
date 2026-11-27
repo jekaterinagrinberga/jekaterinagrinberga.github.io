@@ -2,11 +2,13 @@
 title: "Hydrogen"
 date: "2022-04-29"
 excerpt: "Hydrogen is a hot topic across the world now. But would it ever be green enough to become the primary energy source for most industries? Critics say it’s neither efficient"
+seoTitle: "Green, Blue or Grey Hydrogen: Is Hydrogen Sustainable?"
+description: "Hydrogen colours explained, from green and blue to grey, pink, yellow and turquoise, and whether hydrogen can become clean energy for heavy industry."
 featuredImage: "/images/9E633C65-FB37-4393-AD15-4EBF935A2908.jpeg"
 ---
 Hydrogen is a hot topic across the world now. But would it ever be green enough to become the primary energy source for most industries? Critics say it’s neither efficient nor sustainable enough. However, some types of hydrogen are indispensable to climate neutrality, and hydrogen features in all eight of the European Commission’s net-zero emissions scenarios for 2050. In theory, hydrogen can do three things – speed up the decarbonization of the hard-to-electrify sectors like long-distance transportation and heavy industries, store surplus renewables power when the grid cannot absorb it, and replace fossil fuels as a zero-carbon feedstock in chemicals and fuel production.
 
-![](/images/9E633C65-FB37-4393-AD15-4EBF935A2908.jpeg)
+![Hand turning wooden blocks from CO2 into H2](/images/9E633C65-FB37-4393-AD15-4EBF935A2908.jpeg)
 
 What is hydrogen? Its chemical formula is H2, and it is the lightest element with no color, taste, or odor. Most hydrogen on Earth exists in molecular forms such as water and organic compounds (proteins, methane, butane, hydrocarbons, etc.). Hydrogen is the most abundant substance in their universe. Hydrogen is part of climate discussions for industries that are hard to decarbonize in other ways – trucking, airplanes, electricity storage. When you burn hydrogen, energy is generated in the form of heat, but it requires energy to make the hydrogen in the first place. When it burns, the only by-product is water. Hydrogen energy generates no carbon dioxide to warm the atmosphere, making hydrogen one of the many potential energy sources that could reduce carbon emissions and slow global warming.
 
@@ -34,7 +36,7 @@ Carbon dioxide lasts longer in the atmosphere than methane, but methane is more 
 
 As you can see, the color scheme for hydrogen marking is a bit simplistic approach, and it is not getting to the critical issue with hydrogen – what are the side effect of hydrogen production.
 
-![](/images/473E1770-59E7-436D-86D9-41DA060C800C-1024x682.jpeg)
+![Aerial view of an industrial plant releasing steam](/images/473E1770-59E7-436D-86D9-41DA060C800C-1024x682.jpeg)
 
 Hydrogen is already a key component of chemical industrial processes and the steel industry. It is critical to make clean hydrogen to use in those industrial processes to reduce carbon emissions. Clean hydrogen can play a key role in decarbonizing the industrial heavy transportation industry, like trucking, planes, and big industrial boats. It is widely debated that hydrogen will not be broadly implemented for smaller consumer vehicles as electric cars are being adopted more. However, bigger vehicles would require larger batteries which would lead to an increased weight which would result in increased energy use. Hydrogen can become a solution to this equation.
 

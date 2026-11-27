@@ -3,16 +3,19 @@ import Layout from '../layouts/Layout.astro';
 import { getCollection, render } from 'astro:content';
 import { getFirstImage } from '../lib/postImage';
 import { addFigures } from '../lib/postFigures';
+import { getExcerpt } from '../lib/postExcerpt';
+import { getRelatedPosts } from '../lib/relatedPosts';
+import PostCards from '../components/PostCards.astro';
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts');
   return posts.map((post) => ({
     params: { slug: post.id },
-    props: { post },
+    props: { post, related: getRelatedPosts(post, posts) },
   }));
 }
 
-const { post } = Astro.props;
+const { post, related } = Astro.props;
 const { Content } = await render(post);
 // Post HTML with pictures turned into floating figures with captions
 const postHtml = post.rendered?.html ? addFigures(post.rendered.html) : null;
@@ -24,31 +27,42 @@ function formatDate(iso: string) {
 
 const ogImage = post.data.featuredImage ?? getFirstImage(post.body ?? '') ?? '/images/hero.jpg';
 
+// Search result title and description; fall back to the post title and opening sentences
+const pageTitle = post.data.seoTitle ?? `${post.data.title} – Jekaterina Grinberga`;
+const pageDescription = post.data.description ?? getExcerpt(post.body ?? '', post.data.excerpt);
+const SITE = 'https://jekaterinagrinberga.com';
+
 const structuredData = {
   '@context': 'https://schema.org',
   '@type': 'BlogPosting',
   headline: post.data.title,
-  description: post.data.excerpt,
+  description: pageDescription,
+  inLanguage: 'en',
   datePublished: post.data.date,
-  dateModified: post.data.date,
+  dateModified: post.data.updated ?? post.data.date,
   image: new URL(ogImage, 'https://jekaterinagrinberga.com').toString(),
   url: `https://jekaterinagrinberga.com/${post.id}/`,
   mainEntityOfPage: `https://jekaterinagrinberga.com/${post.id}/`,
   author: {
     '@type': 'Person',
+    '@id': `${SITE}/#person`,
     name: 'Jekaterina Grinberga',
-    url: 'https://jekaterinagrinberga.com',
+    url: `${SITE}/`,
+    jobTitle: 'Sustainability Lead',
+    sameAs: ['https://www.linkedin.com/in/jekaterina-grinberga/'],
   },
   publisher: {
     '@type': 'Person',
+    '@id': `${SITE}/#person`,
     name: 'Jekaterina Grinberga',
   },
+  isPartOf: { '@type': 'Blog', '@id': `${SITE}/blog/#blog`, name: 'Sustainability Strategy & ESG Blog' },
 };
 ---
 
 <Layout
-  title={`${post.data.title} – Jekaterina Grinberga`}
-  description={post.data.excerpt}
+  title={pageTitle}
+  description={pageDescription}
   image={ogImage}
   type="article"
   publishedTime={post.data.date}
@@ -56,10 +70,25 @@ const structuredData = {
 >
   <article class="wrap post">
     <h1>{post.data.title}</h1>
-    <p class="date">{formatDate(post.data.date)}</p>
+    <p class="date">
+      By <a href="/" rel="author">Jekaterina Grinberga</a> ·
+      <time datetime={post.data.date}>{formatDate(post.data.date)}</time>
+    </p>
     <div class="content">
       {postHtml ? <Fragment set:html={postHtml} /> : <Content />}
     </div>
+    <aside class="author-box" aria-label="About the author">
+      <img src="/images/hero.jpg" alt="Jekaterina Grinberga" width="96" height="96" loading="lazy" />
+      <div>
+        <p class="author-name">Jekaterina Grinberga</p>
+        <p class="author-bio">
+          I help growing companies turn sustainability into business strategy. I write and speak about supply
+          chain transparency, ESG and what actually works.
+        </p>
+        <a class="back" href="mailto:jekaterina.grinberga@gmail.com">Get in touch →</a>
+      </div>
+    </aside>
+    <PostCards heading="Keep reading" posts={related} />
     <a class="back" href="/blog/">← Back to blog</a>
   </article>
 </Layout>
@@ -83,6 +112,48 @@ const structuredData = {
   }
 
   /* Same outline button as "Get in touch" on the homepage */
+  .date a {
+    color: inherit;
+  }
+
+  /* Short "about the author" box at the end of every post */
+  .author-box {
+    clear: both;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin-top: 48px;
+    padding: 24px;
+    background: #eef7ec;
+    border-radius: 4px;
+  }
+
+  .author-box img {
+    flex: 0 0 96px;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center 20%;
+  }
+
+  .author-name {
+    margin: 0 0 4px;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--color-text);
+  }
+
+  .author-bio {
+    margin: 0;
+    font-size: 16px;
+    color: var(--color-muted);
+  }
+
+  .author-box .back {
+    margin-top: 16px;
+  }
+
   .back {
     display: inline-flex;
     align-items: center;
@@ -204,6 +275,11 @@ const structuredData = {
 
     .back {
       font-size: 18px;
+    }
+
+    .author-box {
+      flex-direction: column;
+      align-items: flex-start;
     }
 
     /* On phones pictures sit centred between paragraphs, 240px wide like the homepage */

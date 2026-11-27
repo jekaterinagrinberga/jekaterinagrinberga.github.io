@@ -2,6 +2,8 @@
 title: "Sustainable trends"
 date: "2022-09-03"
 excerpt: "Let’s talk about sustainable trends. According to the Cambridge dictionary, a trend is a general development in a situation or in how people behave. Therefore, we can positively say that"
+seoTitle: "5 Sustainability Trends Creating Business Opportunities"
+description: "Five sustainability trends shaping business: decarbonisation, deglobalisation, digitalisation, the circular economy and sustainable lifestyles."
 featuredImage: "/images/5BE3C033-F68A-429E-BD4C-4886EC7A5C05-1024x576.jpeg"
 ---
 Let’s talk about sustainable trends. According to the Cambridge dictionary, a trend is a general development in a situation or in how people behave. Therefore, we can positively say that sustainable trends could broaden business opportunities. It is only a matter of time before someone will invent new business value because of the trending impact in the future. Since we have already touched on all possible climate change-related risks, I would like to devote this post to current sustainability trends.
@@ -12,7 +14,7 @@ Electric transport is a huge thing now, as car sales doubled in 2021 to a record
 
 Electric trucks have so far been deployed only in China, but other countries have announced plans for heavy truck electrification, and manufacturers are widening their choices of models. Long-range trucks require high-power charges that are currently very expensive and require grid upgrades. There are also electric buses, ferries, and even airlines committed to the electric fleet in the future. Today’s batteries don’t have the energy density necessary to power anything but the lightest planes, and even for those, the trip will be pretty short. Batteries have been packing more power into the smallest spaces for about 30 years, and continuing improvement could help electric planes become a more feasible option for flying. They’re not there yet, and ultimately, the future of electric planes depends on a lot of progress in battery technology. Isn’t it a brilliant business opportunity?
 
-![](/images/5BE3C033-F68A-429E-BD4C-4886EC7A5C05-1024x576.jpeg)
+![Ferry sailing on open water](/images/5BE3C033-F68A-429E-BD4C-4886EC7A5C05-1024x576.jpeg)
 
 Renewable energy is trending in expanding to the private sector from being mostly available to businesses just a while ago. The private sector demands solar panels for houses and portable ones for balconies in apartments. People benefit from non-dependency on the central public grid, which leads to cost reduction and independence from market energy prices. Also, renewable energy is considered clean energy, so for many people, it is an additional advantage of being related to the global sustainable trend. Business opportunity here lies in manufacturing, maintaining, and utilizing solar panels.
 
@@ -34,7 +36,7 @@ We must remember that digitalization also has not-so-hidden constraints, such as
 
 3R model of Reduce, Reuse, Recycle is transformed into 9R – Refuse, Reduce, Reuse, Repair, Refurbish, Remanufacture, Repurpose, Recycle, Recover. Wow! Have you ever considered using the old doors from your grandparents’ house as a dining table at your apartment? The circular economy is a trend that opens various business opportunities, and we will dive deeper into this in some subsequent posts.
 
-![](/images/2F2BB39F-BE81-4A6B-A7E1-CF552CA97481.jpeg)
+![Wind turbine playground in the Netherlands](/images/2F2BB39F-BE81-4A6B-A7E1-CF552CA97481.jpeg)
 
 Wind turbine playground, Netherlands
 

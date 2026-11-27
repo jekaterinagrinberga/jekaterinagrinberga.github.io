@@ -6,7 +6,12 @@ const posts = defineCollection({
   schema: z.object({
     title: z.string(),
     date: z.string(),
+    // Date of the last real update, e.g. "2026-11-28" (optional)
+    updated: z.string().optional(),
     excerpt: z.string(),
+    // Title and description shown in Google results (optional)
+    seoTitle: z.string().optional(),
+    description: z.string().optional(),
     featuredImage: z.string().nullable(),
   }),
 });

@@ -2,6 +2,8 @@
 title: "Corporate Social Responsibility vs Corporate Sustainability"
 date: "2021-11-16"
 excerpt: "We hear these phrases all around recently. Businesses worldwide have started using sustainable development as their priority and a greater emphasis is put on this. Although, different reasons could be"
+seoTitle: "CSR vs Corporate Sustainability: What's the Difference?"
+description: "Corporate social responsibility and corporate sustainability sound alike but differ. What each means, where they overlap and why it matters for business."
 featuredImage: "/images/virgil-cayasa-2sHndAZ2P3k-unsplash-1-1024x683.jpg"
 ---
 We hear these phrases all around recently. Businesses worldwide have started using sustainable development as their priority and a greater emphasis is put on this. Although, different reasons could be behind prioritising sustainability – for some companies it is cost saving long-term strategy and investing in green technologies, but for others – very good media attention and quite short-term marketing boost. So let’s explore in more details the very initial question – what is sustainable development and what is the difference between corporate social responsibility (CSR) and corporate sustainability as these definitions could sound interchangeable from the first glance.
@@ -10,9 +12,9 @@ Sustainable development was first defined in the World Commission on Environment
 
 A socially responsible company puts much attention to stakeholder interests, for instance, oil production company would build schools or hospitals in areas of their direct producing to compensate its impact on locally affected communities. Another example of corporate social responsibility could be a retail company’s investments in providing clean water to households in India, fighting for diversity and women’s rights or marketing campaigns about reusing and recycling their products. As mentioned above, such actions are not always focusing on long-term benefits as both schools and hospitals need well trained staff and investments in the future. With such approach what seems well-intentioned goal turns out to be not so sustainable. Based on this oil production company’s example we can conclude that CSR has very deep roots in socially accepted norms, morality and ethics, and there’s no question, whether CSR initiatives are reasonable or useful for communities. Although, there could be some cases, when these initiatives are either socially responsible or they are sustainable, but not both at the same time.
 
-![](/images/virgil-cayasa-2sHndAZ2P3k-unsplash-1-1024x683.jpg)
+![Children playing football on a grass pitch at sunset](/images/virgil-cayasa-2sHndAZ2P3k-unsplash-1-1024x683.jpg)
 
-![](/images/rio-lecatompessy-cfDURuQKABk-unsplash-1024x683.jpg)
+![Rows of sewing machines in a garment factory](/images/rio-lecatompessy-cfDURuQKABk-unsplash-1024x683.jpg)
 
 Let’s observe the above mentioned example of retail company from corporate sustainability perspective. The same company alongside with being socially responsible would invest in discovering new materials, for instance, recycled fur for winter coats with plastic bottles as insulation, improving packaging to use less materials. Cooperation and partnership with supplier who follow ethical norms is another form of corporate sustainability. Being ethical towards animals as refusing the use of animal fur and genuine leather, using ethically sourced wool. Corporate sustainability puts a focus on circular economy, how a company could use its production waste as a source of funding itself. For example, deposit return schemes around the world show us a perfect recycling loop. As more than 1.4 trillion drink containers are produced every year, there is enormous amount of quality material which could be reused and recycled – beverages are filled in bottles, consumers pay an extra deposit on the top of a price of a drink, use and then return these bottles, which are being processed into new ones.
 

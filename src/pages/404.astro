@@ -1,0 +1,78 @@
+---
+// "Page not found" page. GitHub Pages shows it for any address that doesn't exist.
+import Layout from '../layouts/Layout.astro';
+import PostCards from '../components/PostCards.astro';
+import { getCollection } from 'astro:content';
+
+const latest = (await getCollection('posts'))
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
+  .slice(0, 3);
+---
+
+<Layout title="Page not found – Jekaterina Grinberga" description="This page doesn't exist. Go to the homepage or read the blog.">
+  <meta slot="head" name="robots" content="noindex" />
+  <section class="wrap not-found">
+    <h1>Page not found</h1>
+    <p>Sorry, this page doesn't exist or has moved. Try the homepage or the blog instead.</p>
+    <div class="actions">
+      <a class="pill" href="/">← Home</a>
+      <a class="pill" href="/blog/">Read the blog →</a>
+    </div>
+    <PostCards heading="Latest articles" posts={latest} />
+  </section>
+</Layout>
+
+<style>
+  .not-found {
+    padding: 64px 24px 80px;
+  }
+
+  h1 {
+    font-size: clamp(32px, 5vw, 48px);
+    margin-bottom: 16px;
+  }
+
+  p {
+    font-family: var(--font-body);
+    font-size: 18px;
+    color: var(--color-muted);
+  }
+
+  .actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 32px;
+  }
+
+  /* Same outline button as "Get in touch" on the homepage */
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    min-height: 42px;
+    padding: 0 24px;
+    border: 1px solid var(--color-text);
+    border-radius: 999px;
+    color: var(--color-text);
+    font-family: var(--font-body);
+    font-size: 20px;
+    text-decoration: none;
+    transition: transform 0.15s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .pill:hover,
+  .pill:focus-visible {
+    transform: translateY(-1px);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .pill {
+      transition: none;
+    }
+
+    .pill:hover,
+    .pill:focus-visible {
+      transform: none;
+    }
+  }
+</style>

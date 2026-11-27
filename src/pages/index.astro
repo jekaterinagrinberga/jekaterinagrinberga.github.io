@@ -15,20 +15,64 @@ const withBold = (text: string) =>
     .replace(/>/g, '&gt;')
     .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
 
+// Facts here only repeat what the page itself says, so search engines and
+// AI agents describe Jekaterina the same way the site does.
+const SITE = 'https://jekaterinagrinberga.com';
 const structuredData = {
   '@context': 'https://schema.org',
-  '@type': 'Person',
-  name: 'Jekaterina Grinberga',
-  description: 'I help growing companies turn sustainability into business strategy. I write and speak about supply chain transparency, ESG and what actually works.',
-  url: 'https://jekaterinagrinberga.com',
-  image: 'https://jekaterinagrinberga.com/images/hero.jpg',
-  sameAs: ['https://www.linkedin.com/in/jekaterina-grinberga/'],
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      '@id': `${SITE}/#website`,
+      url: `${SITE}/`,
+      name: 'Jekaterina Grinberga',
+      description: 'Sustainability strategy, ESG and supply chain transparency for growing companies.',
+      inLanguage: 'en',
+      publisher: { '@id': `${SITE}/#person` },
+    },
+    {
+      '@type': 'ProfilePage',
+      '@id': `${SITE}/#profile`,
+      url: `${SITE}/`,
+      name: 'Jekaterina Grinberga – Sustainability Strategy & ESG Leader',
+      isPartOf: { '@id': `${SITE}/#website` },
+      mainEntity: { '@id': `${SITE}/#person` },
+    },
+    {
+      '@type': 'Person',
+      '@id': `${SITE}/#person`,
+      name: 'Jekaterina Grinberga',
+      url: `${SITE}/`,
+      image: `${SITE}/images/hero.jpg`,
+      email: 'mailto:jekaterina.grinberga@gmail.com',
+      jobTitle: 'Sustainability Lead',
+      description:
+        'Sustainability leader who helps growing companies turn sustainability into business strategy. Leads sustainability at a fast-growing global e-commerce technology company, after ten years in banking and fintech. Writes and speaks about supply chain transparency, ESG and what actually works. Available for sustainability leadership roles, including fractional and advisory.',
+      knowsAbout: [
+        'Sustainability strategy',
+        'ESG',
+        'ESG reporting',
+        'Supply chain transparency',
+        'Supplier due diligence',
+        'Greenhouse gas accounting (Scope 1, 2 and 3)',
+        'Materiality assessment',
+        'Climate risk',
+        'EU sustainability regulation',
+        'Corporate sustainability',
+      ],
+      seeks: {
+        '@type': 'Demand',
+        description: 'Sustainability leadership roles, including fractional and advisory',
+      },
+      sameAs: ['https://www.linkedin.com/in/jekaterina-grinberga/'],
+    },
+  ],
 };
 ---
 
 <Layout
-  title="Jekaterina Grinberga – Corporate Sustainability"
-  description="Jekaterina Grinberga is an advocate for sustainable living, writing on corporate sustainability, ESG and climate topics."
+  title="Jekaterina Grinberga – Sustainability Strategy & ESG Leader"
+  description="Sustainability leader helping growing companies turn ESG, supply chain transparency and Scope 1–3 emissions into strategy. Open to fractional roles."
   image="/images/hero.jpg"
   structuredData={structuredData}
 >

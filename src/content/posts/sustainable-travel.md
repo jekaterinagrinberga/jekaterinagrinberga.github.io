@@ -2,11 +2,13 @@
 title: "Sustainable travel"
 date: "2022-03-23"
 excerpt: "I have just traveled from my home in Latvia to the Philippines. I’ve spent 3 hours flying from Riga to Istanbul, Turkey, and 12,5 hours from Istanbul to Manila. I’m"
+seoTitle: "Sustainable Travel: Practical Tips to Travel Greener"
+description: "What sustainable tourism means and practical ways to cut the impact of your trips, written after a 9,000 km journey from Latvia to the Philippines."
 featuredImage: "/images/suhyeon-choi-tTfDMaRq-FE-unsplash-1024x683.jpg"
 ---
 I have just traveled from my home in Latvia to the Philippines. I’ve spent 3 hours flying from Riga to Istanbul, Turkey, and 12,5 hours from Istanbul to Manila. I’m writing this post being 9000 km away from home. Plenty of time and considerable distance to reflect on my travel habits and make a list of my own suggestions on how to travel more sustainably for our planet. 
 
-![](/images/suhyeon-choi-tTfDMaRq-FE-unsplash-1024x683.jpg)
+![Passengers seated in an airplane cabin](/images/suhyeon-choi-tTfDMaRq-FE-unsplash-1024x683.jpg)
 
 Let’s start with understanding what is sustainable tourism. Generally, it means finding a way to travel any distance around the world without harming natural and cultural environments in long term. Sustainable travel should minimize the negative impacts of tourism and become beneficial to the area in a perfect world.
 
@@ -48,7 +50,7 @@ As travelers, we must take responsibility for advocating sustainable travel and 
 12.  Bring your eco-friendly travel essentials. For me, these are a reusable water bottle, reusable shopping bag, a couple of reusable straws, and cutlery with a lunch box where I put everything I couldn’t eat at once or pack a lunch for a flight.
 13.  Sunscreen is a must. Everywhere you go. Sunscreen is even more important in such countries as the Philippines where the UV index can go up to 11 points and higher during peak periods. And as if that’s not bad enough, bright surfaces like sand and water can reflect UV rays and increase UV exposure. Many sunscreens contain oxybenzone, which is toxic to the symbiotic algae that live within corals. You are not allowed to bring sunscreen with oxybenzone to Hawaii and some other places that care about the environment. I use vegan sun cosmetics from [Madara Cosmetics](https://www.madaracosmetics.com/en/shop/antioxidant-sunscreen-spf-30-for-body) that are safe for corals and are cruelty-free.
 
-![](/images/3FD23050-1EAA-4E31-ADB5-79BDD94795DB-1024x1024.jpg)
+![Collage of travel photos of beaches, forests and waterfalls](/images/3FD23050-1EAA-4E31-ADB5-79BDD94795DB-1024x1024.jpg)
 
 “The Earth is what we all have in common!’ Nothing inspired, fascinated, surprised, and enlightened me as much as our beautiful planet. I haven’t been everywhere yet, traveling the world will always be my biggest dream. Seeing a lot of rubbish and plastic in the most heavenly places scares me and makes me angry. The ugliness of humanity against the beauty of nature, that’s sad but also hopeful. Each of us can easily choose more sustainable life, reduce waste and stop supporting animal cruelty all around the world.
 

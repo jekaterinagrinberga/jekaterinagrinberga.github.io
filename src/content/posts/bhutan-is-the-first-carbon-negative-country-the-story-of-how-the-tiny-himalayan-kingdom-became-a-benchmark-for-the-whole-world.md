@@ -2,9 +2,11 @@
 title: "Bhutan is the first carbon-negative country. The story of how the tiny Himalayan Kingdom became a benchmark for the whole world."
 date: "2021-12-16"
 excerpt: "The Kingdom of Bhutan lies deep in the Himalayas, sandwiched between China and India. Many of you know that China and India are some of the biggest air polluters globally,"
+seoTitle: "Bhutan, the First Carbon-Negative Country: How It Did It"
+description: "How tiny Bhutan became the world's first carbon-negative country by putting Gross National Happiness before economic growth, and what others can learn."
 featuredImage: "/images/pema-gyamtsho-vd3_HFi29Fo-unsplash-1024x683.jpg"
 ---
-![](/images/pema-gyamtsho-vd3_HFi29Fo-unsplash-1024x683.jpg)
+![Mountain town in Bhutan surrounded by forested hills](/images/pema-gyamtsho-vd3_HFi29Fo-unsplash-1024x683.jpg)
 
 The Kingdom of Bhutan lies deep in the Himalayas, sandwiched between China and India. Many of you know that China and India are some of the biggest air polluters globally, responsible for 33.6% of CO2 emissions combined. A reasonable question would be how tiny Bhutan achieved such a fantastic title of being the first carbon-negative country in the world. What is more, they have committed to reach zero net greenhouse gas emissions by 2030 and produce zero waste. Well, we will explore their illuminating story in this article, and by the end of the reading, you will learn how Bhutan has set a world standard for environmental preservation by putting happiness before economic growth.
 

@@ -2,6 +2,8 @@
 title: "Sustainable Black Friday"
 date: "2022-11-23"
 excerpt: "You can get up to 100% discount**when you don’t buy anything As Black Friday approaches, it is worth discussing our consumption habits and desire to spend money on anything to"
+seoTitle: "Sustainable Black Friday: Rethinking Consumption and Deals"
+description: "The history of Black Friday, why chasing discounts fuels overconsumption and how brands like Patagonia push back against it."
 featuredImage: "/images/6E7057C5-A4B3-46A8-8C14-80F83E5F45EF.jpeg"
 ---
 You can get up to 100% discount\*  
@@ -13,7 +15,7 @@ Black Friday’s history goes back to the 19th century and was initially related
 
 The Black Friday shopping rush may be originated in the USA, but nowadays is spread all across the planet. We are living in the “early access discount,” “pre-Black Friday deal,” “our biggest sale,” etc. times. Black Friday is now extended into Black weekend plus Cyber Monday shopping event. There are many ways to make Black Friday sustainable and eliminate the impact of shopping.
 
-![](/images/6E7057C5-A4B3-46A8-8C14-80F83E5F45EF.jpeg)
+![Patagonia "Don't buy this jacket" ad in the New York Times on Black Friday, 2011](/images/6E7057C5-A4B3-46A8-8C14-80F83E5F45EF.jpeg)
 
 [Patagonia’s provocative ad in the New York Times on Black Friday, 2011](https://www.patagonia.com/stories/dont-buy-this-jacket-black-friday-and-the-new-york-times/story-18615.html)
 

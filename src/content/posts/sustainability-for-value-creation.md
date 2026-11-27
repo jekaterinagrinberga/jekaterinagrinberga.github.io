@@ -2,9 +2,11 @@
 title: "Sustainability for Value Creation"
 date: "2023-06-12"
 excerpt: "In recent years, sustainability has emerged as a critical aspect of business strategy, with companies increasingly recognizing its potential for value creation. Today, organizations are not only expected to generate"
+seoTitle: "How Sustainability Creates Business Value: McKinsey Insights"
+description: "Key findings from McKinsey's survey on how companies capture value from sustainability, and how to make it part of your business strategy."
 featuredImage: "/images/johnny-mcclung-qCrYjh3k1LM-unsplash-1024x658.jpg"
 ---
-![](/images/johnny-mcclung-qCrYjh3k1LM-unsplash-1024x658.jpg)
+![Water droplets on green ginkgo leaves](/images/johnny-mcclung-qCrYjh3k1LM-unsplash-1024x658.jpg)
 
 In recent years, sustainability has emerged as a critical aspect of business strategy, with companies increasingly recognizing its potential for value creation. Today, organizations are not only expected to generate profits but also to operate in a socially and environmentally responsible manner. A recent article by McKinsey titled [“How Companies Capture the Value of Sustainability: Survey Findings”](https://www.mckinsey.com/capabilities/sustainability/our-insights/how-companies-capture-the-value-of-sustainability-survey-findings?cid=mbe-pde-pro-mip-mck-oth-2111) sheds light on the growing importance of sustainability practices and their benefits. This blog post summarizes the key insights from the article, highlighting how businesses can leverage sustainability to drive value.
 

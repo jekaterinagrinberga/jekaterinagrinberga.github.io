@@ -2,9 +2,11 @@
 title: "Sustainability in a desert - the UAE case-study"
 date: "2023-02-28"
 excerpt: "I got the inspiration for this blog post after my very recent visit to Dubai. I was flying from my home in Latvia to Southeast Asia with a connection in"
+seoTitle: "Sustainability in Dubai: Can a Desert City Be Liveable?"
+description: "A first-hand look at Dubai's plan to become the world's most liveable city by 2040: megaprojects, energy and whether a desert city can be sustainable."
 featuredImage: "/images/IMG_0093-3-edited-scaled.jpeg"
 ---
-![](/images/IMG_0093-3-edited-scaled.jpeg)
+![Jekaterina Grinberga at the top of the Burj Khalifa](/images/IMG_0093-3-edited-scaled.jpeg)
 
 Myself at the top of the Burj Khalifa
 
@@ -12,7 +14,7 @@ I got the inspiration for this blog post after my very recent visit to Dubai. I 
 
 Dubai has a radical plan to become the most liveable city in the world by 2040. Liveability would be measured by many factors of quality of life for people there – a safe environment, access to health care and education, safe transportation, and access to fresh water and food. Liveable communities would be socially cohesive, inclusive, and environmentally sustainable, with affordable housing and accessible public transport. In addition, there should be public open spaces with recreational facilities and rich cultural and social life opportunities for a decent life for all city inhabitants. The Global Liveability Ranking is a yearly assessment published by the Economist Intelligence Unit (EIU). It ranks 173 global cities for their urban quality of life based on evaluating stability, healthcare, culture and environment, education, and infrastructure. To put it into some perspective, the most liveable cities in 2022 were:
 
-![](/images/lloyd-alozie-2txiOUspmH0-unsplash-1-576x1024.jpg)
+![Aerial view of a desert roundabout half covered by drifting sand](/images/lloyd-alozie-2txiOUspmH0-unsplash-1-576x1024.jpg)
 
 The desert is coming back to where it belongs
 
@@ -45,7 +47,7 @@ So what’s wrong with Dubai’s plan to be the most liveable city in the world 
 
 The world’s largest artificial archipelago was established twenty years ago when the construction began. The project consists of the Palm Islands (Palm Jumeirah – the most developed, Palm Jebel Ali – still under construction, Palm Deira – opened to visitors in December of 2020), The World – a group of 300 islands forming the map of the world, which development started 17 years ago and is yet to be finished, and The Universe – is to be completed in the next five years.
 
-![](/images/eslam-tawakol-fjfNY4PsIoc-unsplash-1024x819.jpg)
+![Aerial view of Palm Jumeirah, the most developed island of the archipelago](/images/eslam-tawakol-fjfNY4PsIoc-unsplash-1024x819.jpg)
 
 Palm Jumeirah – the most developed island of the archipelago
 
@@ -55,17 +57,17 @@ Dubai’s proposal for 2040 (to become the most liveable city in the world) incl
 
 Dubai was a small port city with a population of 30 thousand only 50 years ago. Then the oil was discovered in 1966. For most of Arabia, oil was powering a car, but for UAE, it quickly became apparent that after the oil ran out, they could thrive on the world’s attention and investments. Dubai has easy access to Europe, Asia, and Africa as it is located in the middle of the earth, so it quickly became one of the busiest aviation hubs in the world. UAE minimized income and sales taxes to attract more businesses and investors. The government wanted to create another source of income, so they targeted tourism. It was around that time when the idea of megaprojects started.
 
-![](/images/divjot-ratra-XnKkfhAoPw-unsplash-683x1024.jpg)
+![Dubai skyscrapers and a highway interchange in haze](/images/divjot-ratra-XnKkfhAoPw-unsplash-683x1024.jpg)
 
-![](/images/pavan-mulani-HFtLVjm0DVY-unsplash-1-768x1024.jpg)
+![Sun loungers on a beach facing the Dubai Marina skyline](/images/pavan-mulani-HFtLVjm0DVY-unsplash-1-768x1024.jpg)
 
-![](/images/salman-sidheek-MqLFRTbJvGw-unsplash-1-768x1024.jpg)
+![Sheikh Zayed Road lined with skyscrapers in Dubai](/images/salman-sidheek-MqLFRTbJvGw-unsplash-1-768x1024.jpg)
 
 In my personal opinion, looking from the top of Burj Khalifa, the world’s tallest building, the skyline of Dubai is unapologetically artificial. However, this is precisely why so many tourists and investors are attracted to 50’C heat in a desert. A few people realize that most of the city is built ahead of the infrastructure of that time. The Burj Khalifa is probably the most famous example to illustrate this. The tallest building in the world isn’t connected to Dubai’s sewage system. During the project stage, developers calculated that the Burj Khalifa could handle 35,000 people at total capacity. The current sewage system could not sustain all the waste these people could theoretically produce. It wasn’t a plan to fundamentally reconstruct the city’s sewage system. The more cost-efficient solution was to carry everything by trucks out to the sewage treatment plant every morning. The story goes the same about all the incredible skyscrapers in Dubai. These megabuildings are just staying there on the desert’s sands without proper city infrastructure.
 
 Another area that caught my eye in Dubai was the lack of greenery. There are not many trees growing in a desert, aren’t they? UAE’s officials also realized that and launched the One Million Trees initiative in 2010. The goal was to impact Dubai’s overall beautification with increased green areas through massive afforestation while fighting desertification, with all these trees eventually becoming carbon sinks. The forest nursery was irrigated with recycled wastewater and desalination. However, four years later, Dubai started planning another great shopping mall on the lands of the not-yet-developed-enough forest. Several legal disputes later, forest workers protests and multiple attempts to negotiate another three years for trees to mature enough to be ready to be transferred to another place, 80% of plants are dead because of a lack of water. Another shopping center hasn’t been developed as well, as the development company re-focused on Expo 2020 projects. The only goal reached there – is to attract the world’s attention just another time, showing off pretentious care of environmental issues.
 
-![](/images/kent-tupas-2jfZ2Vj06sk-unsplash-1024x698.jpg)
+![Dubai skyline with the Burj Khalifa](/images/kent-tupas-2jfZ2Vj06sk-unsplash-1024x698.jpg)
 
 Excited to see this place transform into the most liveable city by 2040
 

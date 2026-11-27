@@ -2,13 +2,15 @@
 title: "COP26 - an action plan to tackle climate change"
 date: "2022-03-01"
 excerpt: "The 26th UN Climate Change Conference of the Parties (COP26) was held on 31 October - 13 November 2021 in Glasgow to bring countries together to accelerate action towards the"
-featuredImage: "/images/image.png"
+seoTitle: "COP26 Explained: Outcomes and Climate Action Plans"
+description: "What COP26 in Glasgow agreed: national climate targets, keeping 1.5°C within reach, phasing out coal and action agendas on food and electric transport."
+featuredImage: "/images/cop26-solar-panel-installation.jpg"
 ---
 The 26th UN Climate Change Conference of the Parties (COP26) was held on 31 October – 13 November 2021 in Glasgow to bring countries together to accelerate action towards the goals of the Paris Agreement and the UN Framework Convention on Climate Change. To keep 1.5 degrees within reach, we, as the world, need to half emissions over the next decade and reach net-zero carbon emissions by the middle of the century.
 
 As part of the Paris Agreement, every country agreed to communicate or update their carbon emissions reduction targets – called Nationally Determined Contribution (NDC) – every five years to reflect their highest possible ambition and a progression over time. These targets are expected to outline how far countries plan to reduce emissions across their entire economy or specific sectors. 2020 marked the end of the first of these five-year cycles. Governments are now working towards updating their 2030 targets. It is essential that developed countries and the most significant emitters take the lead.
 
-![](/images/image.png)
+![Worker installing solar panels in a field](/images/cop26-solar-panel-installation.jpg)
 
 Setting targets is important, but they need to be translated into actions. 
 

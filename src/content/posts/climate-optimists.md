@@ -2,6 +2,8 @@
 title: "Climate optimists"
 date: "2021-11-16"
 excerpt: "In this article we will discuss how to talk to other people with positive attitude about the climate. Climate changes and that’s the fact, we need to learn how to"
+seoTitle: "Climate Optimism: Talking About Climate Change Positively"
+description: "Why fear-based climate news backfires and how to talk about climate change with a positive, solutions-focused attitude, plus good-news reads to share."
 featuredImage: "/images/ronan-furuta-sp_pcgjPxgI-unsplash-768x1024.jpg"
 ---
 In this article we will discuss how to talk to other people with positive attitude about the climate. Climate changes and that’s the fact, we need to learn how to deal with the new realms and sooner or later we would need more people engaged in inventing new technologies, changing the mindset and applying sustainable principles of circular economy. Our goal is to avoid implying guilt, horror and indifference.
@@ -27,7 +29,7 @@ Scientists are rarely talking general language, clear to public. They use risk m
 
 Another argument of people being sceptical is that giant economies such as China, India or Russia despite being responsible for the huge amount of CO2 emissions are not going to decrease emissions, so all the other countries cannot make a big difference and, consequently, there would be just waste of money and resources to invest in green technologies. However, there is no need to compare ourselves with our neighbours. Climate change is not a global catastrophe, it is the new opportunities, common values of all people in the world, development of technologies, new partnerships and common great future. Being climate optimist ought to be challenging but also it is about making significant changes.
 
-![](/images/ronan-furuta-sp_pcgjPxgI-unsplash-768x1024.jpg)
+![Protest sign reading "Love our planet" at a climate march](/images/ronan-furuta-sp_pcgjPxgI-unsplash-768x1024.jpg)
 
 Further reads:
 

@@ -2,6 +2,8 @@
 title: "Climate risks"
 date: "2022-06-15"
 excerpt: "Today’s article is all about climate risks. Risk management usually analyses financial key performance indicators, geopolitics, and other factors which may affect any company’s future. Climate risks are not common,"
+seoTitle: "6 Climate Risks Every Business Should Assess"
+description: "The six climate risks companies underestimate: physical, social, legislative, technological, market and reputation risk, and how they affect strategy."
 featuredImage: "/images/elena-rabkina-FRsGNnM4Z18-unsplash-1024x768.jpg"
 ---
 Today’s article is all about climate risks. Risk management usually analyses financial key performance indicators, geopolitics, and other factors which may affect any company’s future. Climate risks are not common, but we should start paying attention to them. Not many organizations take climate risks into account while building a company’s business strategy, but at the same time, potential financial loss is highly underestimated.
@@ -31,7 +33,7 @@ For example, out of Europe, temperatures at the Greenland summit in August 2021 
 
 We are still setting new records in mid-2022. Throughout April 2022, large parts of Europe experienced below-normal temperature trends. However, early in May, weather patterns have rearranged, and maximum daily temperatures relative to average were among some of the highest in the world at that time. Most of Spain and France had anomalies over 10’C above normal, hitting mid-30’C.
 
-![](/images/elena-rabkina-FRsGNnM4Z18-unsplash-1024x768.jpg)
+![Child running through a garden sprinkler on a hot summer day](/images/elena-rabkina-FRsGNnM4Z18-unsplash-1024x768.jpg)
 
 Norilsk Nickel, the world’s leading nickel and palladium plant, is responsible for the spill of more than 21,000 tonnes of diesel poured into rivers and lakes in Russia’s Arctic north in May 2020. Investigators believe the storage tank near Norilsk sank because melting permafrost weakened its supports. The Arctic had seen weeks of hot weather before the disaster.
 
@@ -62,7 +64,7 @@ Giant corporations and the most significant manufacturing industries are already
 
 The European Union will require all new smartphones and tablets sold within its borders to have a standard charging port by the fall of 2024 and laptops by 2026. A new provisional agreement was issued, pushing technology giants such as Apple to fall in line with other smartphone makers that have widely adopted a universal port in recent years. This is an excellent example of how lawmakers bring changes to technologies and impact all market players.
 
-![](/images/solen-feyissa-115YGe1M28I-unsplash-1024x683.jpg)
+![Tangled pile of white charging cables](/images/solen-feyissa-115YGe1M28I-unsplash-1024x683.jpg)
 
 **Market risk** – consumer behavior can change, and demand can naturally decrease. Companies should evaluate how competitive they are in a market, what consumers’ central values are, and whether a company can share and supply these values. Would a company avoid greenwashing in its marketing communication in a run for its market share? New types of competitors arise now across different sectors. For example, sharing economy is becoming more and more popular. Revenue in the car-sharing segment is projected to reach US$12.95bn in 2022 with an expected annual growth rate 2022-2026 of 6.28%, resulting in a projected market volume of US$16.52bn by 2026. The number of users will likely amount to 60.7m by 2026.
 
@@ -81,6 +83,6 @@ The European Union will require all new smartphones and tablets sold within its 
 
 BP, the British Petroleum energy company, launched the rebranding to Beyond Petroleum in mid-2000. The project’s goal was to position the company as an environmentally sensitive company looking for sustainable, green energy sources. However, then happened the catastrophe in 2010. The Gulf of Mexico oil spill is considered one of the worst corporate disasters in recent history. British Petroleum operated for more than 100 years, and its reputation was severely damaged over just a few days in 2010. Oil spewed unabated for 85 days until the company regained control over the leak by placing a fitted cap over the gushing geyser. Environmental impacts were dramatic and very severe. The company faced numerous lawsuits across the Gulf region from businesses, individuals and investors. Many around the world were disappointed with the once-proud London-based energy company. 
 
-![](/images/red-dot-V-B8Jdn9TA-unsplash-1024x743.jpg)
+![Petrol pump with a "Sorry, out of use" sign at a fuel station](/images/red-dot-V-B8Jdn9TA-unsplash-1024x743.jpg)
 
 In conclusion, I would like to mention another thing. Of course, all the risks discussed above have different material and economic effects. For instance, the physical threat of extreme heat waves would result in non-stop working air conditioning on the company’s premises. That would lead to increased electricity consumption (higher utility bills) and decreased productivity of employees (missed deadlines, human mistakes). On the other hand, switching to renewable energy and new carbon prices would lead to reduced demand for oil and coal. The estimated loss across the industry would be 900 billion USD.

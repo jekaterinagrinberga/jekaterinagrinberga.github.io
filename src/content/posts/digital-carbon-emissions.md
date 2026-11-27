@@ -2,6 +2,8 @@
 title: "Digital Carbon Emissions"
 date: "2022-01-30"
 excerpt: "After reading this article, you will most probably reconsider doing the following things: hitting Reply All button in your email keep subscribing for endless marketing emails store thousands of pictures"
+seoTitle: "Digital Carbon Footprint: Emissions From Email and Streaming"
+description: "How much CO2 do emails, streaming, cloud photos and social media produce? A look at the internet's carbon footprint and simple habits to cut yours."
 featuredImage: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
 ---
 After reading this article, you will most probably reconsider doing the following things:

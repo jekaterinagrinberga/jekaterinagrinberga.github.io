@@ -6,6 +6,8 @@
 // The side (left/right) is picked "randomly" from the picture's file name, so
 // it looks varied but stays the same every time the site is built.
 
+import { getImageSize } from './imageSize';
+
 const PICTURE = /<p>\s*((?:<a\b[^>]*>\s*)?<img\b[^>]*>(?:\s*<\/a>)?)\s*<\/p>/g;
 const NEXT_PARAGRAPH = /^\s*<p>([\s\S]*?)<\/p>/;
 
@@ -21,16 +23,31 @@ function side(src: string): 'left' | 'right' {
   return hash % 2 === 0 ? 'left' : 'right';
 }
 
+// Adds width/height (so the page doesn't jump while pictures load) and lazy
+// loading to every picture except the first, which is usually visible at once.
+function improveImg(picture: string, isFirst: boolean): string {
+  return picture.replace(/<img\b([^>]*?)\s*\/?>/, (tag, attrs: string) => {
+    const src = attrs.match(/src="([^"]*)"/)?.[1] ?? '';
+    const size = getImageSize(src);
+    let extra = '';
+    if (size && !/\bwidth=/.test(attrs)) extra += ` width="${size.width}" height="${size.height}"`;
+    if (!/\bloading=/.test(attrs)) extra += isFirst ? ' fetchpriority="high"' : ' loading="lazy"';
+    if (!/\bdecoding=/.test(attrs)) extra += ' decoding="async"';
+    return `<img${attrs}${extra}>`;
+  });
+}
+
 export function addFigures(html: string): string {
   let out = '';
   let pos = 0;
+  let count = 0;
   for (const match of html.matchAll(PICTURE)) {
     const start = match.index ?? 0;
     if (start < pos) continue; // already used as a caption
     out += html.slice(pos, start);
     pos = start + match[0].length;
 
-    const picture = match[1];
+    const picture = improveImg(match[1], count++ === 0);
     const src = picture.match(/src="([^"]*)"/)?.[1] ?? '';
     let caption = '';
     const next = html.slice(pos).match(NEXT_PARAGRAPH);

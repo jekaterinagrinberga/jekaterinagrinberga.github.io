@@ -1,6 +1,6 @@
 ---
 heroName: "Jekaterina Grinberga"
-tagline: "Advocate for sustainable living"
+tagline: "I help growing companies turn sustainability into business strategy. I write and speak about supply chain transparency, ESG and what actually works. Available for sustainability leadership roles, including fractional and advisory."
 blogIntro: |
   According to the old Chinese proverb the best time to plant a tree was 20 years ago. The second best time is today. So let us dive right into planting that tree and discussing corporate sustainability verticals and aspects of corporate social responsibility.
 

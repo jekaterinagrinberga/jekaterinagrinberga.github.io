@@ -12,6 +12,8 @@ Myself at the top of the Burj Khalifa
 
 I got the inspiration for this blog post after my very recent visit to Dubai. I was flying from my home in Latvia to Southeast Asia with a connection in Dubai, and I said to myself, “Hey, wasn’t it a great idea to have a long stopover in Dubai to get a chance to explore the city?” Dubai was never on the high end of my traveling bucket list, so it sounded like a chance to see more of it. Well, it was everything and even more than I had expected. Megaprojects, insanely posh lifestyle, vivid crowds of many nationalities, close to unbearable heat in the middle of a desert, and unanswered questions – how does this city work? Where do they get energy? Are all these people attracted to low-tax zone or driven by something else?
 
+## Can Dubai become the most liveable city in the world by 2040?
+
 Dubai has a radical plan to become the most liveable city in the world by 2040. Liveability would be measured by many factors of quality of life for people there – a safe environment, access to health care and education, safe transportation, and access to fresh water and food. Liveable communities would be socially cohesive, inclusive, and environmentally sustainable, with affordable housing and accessible public transport. In addition, there should be public open spaces with recreational facilities and rich cultural and social life opportunities for a decent life for all city inhabitants. The Global Liveability Ranking is a yearly assessment published by the Economist Intelligence Unit (EIU). It ranks 173 global cities for their urban quality of life based on evaluating stability, healthcare, culture and environment, education, and infrastructure. To put it into some perspective, the most liveable cities in 2022 were:
 
 ![Aerial view of a desert roundabout half covered by drifting sand](/images/lloyd-alozie-2txiOUspmH0-unsplash-1-576x1024.jpg)
@@ -43,7 +45,11 @@ The least liveable cities in 2022 were:
 
 Among cities in the Middle East and North Africa, Abu Dhabi was the highest-ranking city placing number 77, with Dubai following at 79.
 
+## What stands in the way of Dubai's 2040 plan?
+
 So what’s wrong with Dubai’s plan to be the most liveable city in the world by 2040? For anyone visiting Dubai, it is impossible not to notice the highways cutting through the neighborhoods, minimum public transport with only one decent route throughout the city and a couple of supporting lines, megaprojects that aren’t connected to general infrastructure, and sinking artificial islands. Let’s look into these artificial islands first. 
+
+## What happened to Dubai's artificial islands?
 
 The world’s largest artificial archipelago was established twenty years ago when the construction began. The project consists of the Palm Islands (Palm Jumeirah – the most developed, Palm Jebel Ali – still under construction, Palm Deira – opened to visitors in December of 2020), The World – a group of 300 islands forming the map of the world, which development started 17 years ago and is yet to be finished, and The Universe – is to be completed in the next five years.
 
@@ -65,11 +71,15 @@ Dubai was a small port city with a population of 30 thousand only 50 years ago. 
 
 In my personal opinion, looking from the top of Burj Khalifa, the world’s tallest building, the skyline of Dubai is unapologetically artificial. However, this is precisely why so many tourists and investors are attracted to 50’C heat in a desert. A few people realize that most of the city is built ahead of the infrastructure of that time. The Burj Khalifa is probably the most famous example to illustrate this. The tallest building in the world isn’t connected to Dubai’s sewage system. During the project stage, developers calculated that the Burj Khalifa could handle 35,000 people at total capacity. The current sewage system could not sustain all the waste these people could theoretically produce. It wasn’t a plan to fundamentally reconstruct the city’s sewage system. The more cost-efficient solution was to carry everything by trucks out to the sewage treatment plant every morning. The story goes the same about all the incredible skyscrapers in Dubai. These megabuildings are just staying there on the desert’s sands without proper city infrastructure.
 
+## Why is there so little greenery in Dubai?
+
 Another area that caught my eye in Dubai was the lack of greenery. There are not many trees growing in a desert, aren’t they? UAE’s officials also realized that and launched the One Million Trees initiative in 2010. The goal was to impact Dubai’s overall beautification with increased green areas through massive afforestation while fighting desertification, with all these trees eventually becoming carbon sinks. The forest nursery was irrigated with recycled wastewater and desalination. However, four years later, Dubai started planning another great shopping mall on the lands of the not-yet-developed-enough forest. Several legal disputes later, forest workers protests and multiple attempts to negotiate another three years for trees to mature enough to be ready to be transferred to another place, 80% of plants are dead because of a lack of water. Another shopping center hasn’t been developed as well, as the development company re-focused on Expo 2020 projects. The only goal reached there – is to attract the world’s attention just another time, showing off pretentious care of environmental issues.
 
 ![Dubai skyline with the Burj Khalifa](/images/kent-tupas-2jfZ2Vj06sk-unsplash-1024x698.jpg)
 
 Excited to see this place transform into the most liveable city by 2040
+
+## Where does Dubai get its energy?
 
 The last question I want to cover in this blog post is about energy sources to fuel all this extravaganza in the middle of a desert. Also, I want to give you some positive perspectives as well. UAE has the world’s most significant per capita environmental footprint and is one of the world’s most water-scarce nations. The UAE has pledged to reach net zero carbon emissions by 2050. In addition, Dubai will host the COP28 United Nations Climate Change Conference in November 2023. One of the most recently completed projects is the waste-to-energy plant in Abu Dhabi, which can process 900,000 metric tonnes of waste annually to power up to 22,500 homes across the country. The second plant is completed in Sharjah and will divert 300,000 metric tonnes of waste from landfills annually, equal to 450,000 metric tonnes of CO2 emissions. As the UAE has minimal natural freshwater resources, it uses thermal desalination to make seawater potable. This process requires vast energy consumption. Water Security Strategy 2036 includes expanded reuse of water and water waste management. 
 

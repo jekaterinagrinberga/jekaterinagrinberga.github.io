@@ -10,9 +10,15 @@ featuredImage: "/images/riccardo-annandale-7e2pe9wjL9M-unsplash-1024x821.jpg"
 
 The world is undergoing an energy transition, a fundamental shift from fossil fuels to renewable energy sources. This transition is being driven by various factors, including concerns about climate change, the need for energy security, and technological advances. It is a complex and multifaceted process with far-reaching implications for the global economy, the environment, and our daily lives. Whether you are an energy industry professional, an environmental advocate, or simply a curious observer, the energy transition is a topic that will shape the world in the coming years. In this post, we will discuss some ways of decarbonizing our economy, what barriers are out there, and what the future may look like for us. I’m a big climate optimist, so all below are only part of me that is skeptical and with a pitch of critical thinking.
 
+## How big is the world's energy system?
+
 Global GDP in 2023 is 105 trillion USD (105,000,000,000,000 USD). Global electricity consumption in 2023 was 24,398 Twh (terawatt-hour). Globally, the extraction of raw materials stands at over 100 billion tons annually. We consume 350 million metric tonnes of meat annually. All these are numbers that no one can comprehend fully, aren’t they? In a way, that doesn’t matter. Overall, we only understand that the world has a very big energy system. How can we change this system?
 
+## How does meat consumption affect emissions?
+
 Let’s take meat consumption as the first example. About 15% of global greenhouse emissions result from livestock farming. People are omnivores, we eat meat, despite me being vegan, I can claim that’s nothing wrong about people eating meat in general. The problem comes with the scale. Do we really need to eat more meat than our body weight every year? The average American eats around 120 kg of meat annually, while the average person in Europe eats 68 kg. What would happen with the global emissions if we lowered this to around 20 kg of lean meat a year? 
+
+## How can buildings use less energy?
 
 The next example is about the impact on energy and carbon balance. Buildings are the greatest example of the longest-lasting structure, which wastes energy on a massive scale. According to the United Nations Environment Program, the built environment accounts for 39 percent of gross annual carbon emissions worldwide, a figure comprising both operational carbon, the ongoing carbon emissions from its day-to-day use, and embodied carbon — all the CO2 emitted in producing materials.
 
@@ -26,6 +32,8 @@ Regarding energy density, let’s talk about electrifying transport. Transportat
 
 Cutting down meat consumption is easy. Building sustainable housing solutions is challenging. Decarbonizing container shipping isn’t possible with the current technology.
 
+## Will electric cars save the planet?
+
 Electric cars won’t save the planet, that’s my next example. Our world is full of SUV cars now. Can somebody please explain to me why we need a 2-tonnes vehicle to carry a 50-70 kg person? From Paris to Manila to Tokyo to New York, cities are full of SUVs releasing billions of tonnes of carbon. So what’s the deal with the electric cars? Imagine Manitoba, Canada. It is one of the coldest regions in Canada, with an average daily high temperature of only 7’C. Winter’s average is  -18’C. Can you imagine what is happening with such drastic weather conditions with an electric car? You can start it in the morning if you are lucky enough to keep it warm in your heated garage. It will run on average less than half of the distance as battery capacity would allow, and it will take you three times longer to recharge it. The same problem appears in extremely hot places on Earth, electric cars are unsuitable for these conditions. Again, not suitable yet, with the technology we know and possess now. Berlin and Los Angeles can switch to electric cars, but it’s not there yet for other much more severe weather-wise regions.
 
 Also, there is not really such a thing as an electric car. If I drove an electric car in Norway, it would have been almost 100% hydroelectric car. If I drove an electric car in China, it would be more than 70% coal car. 70% of all electricity in China is generated from coal. We mine coal, burn it, transport generated energy long distances (losing around 6% of it on the way because of energy leaks), and then we power an electric car with this energy.
@@ -34,11 +42,15 @@ Also, there is not really such a thing as an electric car. If I drove an electri
 
 China is getting into the electric car industry, they are one of the fastest transitioning into electric cars. At the same time, 58 million Chinese tourists will travel internationally in 2023, which is still 40% of the number of travelers in 2019 before the pandemic, with Italy being the most popular destination. China uses electric cars and, at the same time, uses kerosene for international flights. 
 
+## Where should the energy transition start?
+
 Where do we start with energy transition? Well, that’s a good but tricky question. Should we poor investments into buildings that will be here for another 50 years? Should we electrify all cars, which are parked for more than 90% of the time, or, on the contrary, should we electrify all public transport which is used for 90% of the time? The answers to these questions are very uncoordinated between countries and even regions of the planet. 
 
 The only transportation way we have really mastered is trains. But there is no way for electric trains in North America, for example. No one is ready to switch from a comfortable couple of hours flight to an electric train journey that could last days. We cannot have super fast electric trains in Canada or USA the same as there are in Japan or China. There is simply no population density there. Some routes may provide enough demand for high-speed trains (NY to Boston, Los Angeles to San Francisco, Montreal to Toronto), but even these routes won’t likely be built because we invest so much in cars.
 
 There are many challenges in decarbonization from coal to gas. Not only China and India are the biggest consumers of coal, we cannot forget Latin America and Africa, too. The population in these regions is growing, and so grows the energy demand. The fastest and easiest way to fuel this exponentially growing demand is to get coal and burn it. They also produce steel from coal, which is very much needed for building infrastructure, roads, and buildings.
+
+## Can hydrogen solve the energy transition?
 
 Hydrogen could be a great solution. However, also here we have some ‘buts.’ Transition into the hydrogen cannot be done incrementally. We must invest in storage and distribution, especially delivering for long distances. Fundamentally this is exactly the right way to go in the decarbonization journey, but it means committing to the whole system and infrastructure. So there is a little chance we will get there anytime very soon.
 

@@ -11,6 +11,8 @@ You can get up to 100% discount\*
 
 As Black Friday approaches, it is worth discussing our consumption habits and desire to spend money on anything to grab a better deal and discount.
 
+## Where does Black Friday come from?
+
 Black Friday’s history goes back to the 19th century and was initially related to the financial crisis, specifically, the United States gold market crash in September 1869. Black Friday as a term was used another time later in 1950 by police in the city of Philadelphia, as they described the chaos on the day after Thanksgiving. Crowds flooded the city to see the bug football game with Army against the Navy. As the story continues, the most common story behind Black Friday links to retailers and their accounting. After the entire year operating at a loss, stores finally would earn some profit the day after Thanksgiving, as so many people would spend a fortune on holiday shopping. It is widely common in accountancy to record losses in red color and profits in black – so Black Friday represents the day when retail went into the profit zone.
 
 The Black Friday shopping rush may be originated in the USA, but nowadays is spread all across the planet. We are living in the “early access discount,” “pre-Black Friday deal,” “our biggest sale,” etc. times. Black Friday is now extended into Black weekend plus Cyber Monday shopping event. There are many ways to make Black Friday sustainable and eliminate the impact of shopping.
@@ -18,6 +20,8 @@ The Black Friday shopping rush may be originated in the USA, but nowadays is spr
 ![Patagonia "Don't buy this jacket" ad in the New York Times on Black Friday, 2011](/images/6E7057C5-A4B3-46A8-8C14-80F83E5F45EF.jpeg)
 
 [Patagonia’s provocative ad in the New York Times on Black Friday, 2011](https://www.patagonia.com/stories/dont-buy-this-jacket-black-friday-and-the-new-york-times/story-18615.html)
+
+## What are the sustainable alternatives to Black Friday?
 
 Now, when we have some perspective, let’s dive into our habits, reconsider consumption trends, and stay mindful when shopping. I propose some ideas and tricks on how to avoid not needed spending.
 
@@ -29,7 +33,11 @@ Buy Nothing Day is another powerful way of avoiding over-consumption. If you hav
 
 Another example of the sustainable approach to Black Friday could be straightforward action – “For every item sold, we are planting a tree.” Activities vary from the donation of cash, participation in volunteering projects, or cooperation with any non-profit organization. People would be more likely to buy your products if they saw a direct impact. It is essential to communicate with the customers – why does your company work with that exact non-profit, how does that actual project help local communities, and, of course, customers should know all the financial sides of the deal.
 
+## How can brands make Black Friday more sustainable?
+
 There are many opportunities to use Black Friday as an informational excuse to educate customers and promote sustainable shopping. Being a shopaholic, I have tips on avoiding excessive shopping and spending, especially in November each year. People would not stop shopping only because they care about the planet. Pakistani women receiving unfair wages, piles of garbage dumps in India, and draining toxic waters in Malaysia are way too far from our routine lives. When we read about these problems in newspapers, we may be shocked and distraught, but on the next page, there is a discount coupon for a new dress. Exactly the dress we may need for the upcoming Christmas party… There are ways out of this vicious circle, believe me. We must recognize that there are many reasons to limit our shopping habits – saving money and time, changing lifestyles and hobbies.
+
+## How can you avoid overconsumption on Black Friday?
 
 First (and most important), delete all your subscriptions to the fashion brands. Unsubscribe from their emails, unfollow accounts on social media and even delete your shopping apps. Unsubscribe from social media influencers who make live unpacking and post about the latest fashion trends and must-haves. Remember that influencers cooperate with brands and make money advertising their products. We don’t need to “renew a winter wardrobe” or “celebrate summer with a new dress collection.” You won’t get extra motives to follow the Black Friday rush if you don’t receive notifications about it.
 

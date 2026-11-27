@@ -8,9 +8,13 @@ featuredImage: "/images/cop26-solar-panel-installation.jpg"
 ---
 The 26th UN Climate Change Conference of the Parties (COP26) was held on 31 October – 13 November 2021 in Glasgow to bring countries together to accelerate action towards the goals of the Paris Agreement and the UN Framework Convention on Climate Change. To keep 1.5 degrees within reach, we, as the world, need to half emissions over the next decade and reach net-zero carbon emissions by the middle of the century.
 
+## What are Nationally Determined Contributions (NDCs)?
+
 As part of the Paris Agreement, every country agreed to communicate or update their carbon emissions reduction targets – called Nationally Determined Contribution (NDC) – every five years to reflect their highest possible ambition and a progression over time. These targets are expected to outline how far countries plan to reduce emissions across their entire economy or specific sectors. 2020 marked the end of the first of these five-year cycles. Governments are now working towards updating their 2030 targets. It is essential that developed countries and the most significant emitters take the lead.
 
 ![Worker installing solar panels in a field](/images/cop26-solar-panel-installation.jpg)
+
+## What were the main COP26 action areas?
 
 Setting targets is important, but they need to be translated into actions. 
 
@@ -20,9 +24,13 @@ Setting targets is important, but they need to be translated into actions. 
 
 In the Forest, Agriculture and Commodity Trade (FACT) Dialogue, the primary producer and consumer countries of agricultural commodities like cocoa and soy are coming together to take action to protect forests while promoting sustainable global trade and development. Governments are working together to collaborate on policy, innovation, and investment to accelerate the transition to sustainable agriculture, working closely with the World Bank and the UN Food Systems Summit. Counties are called to protect or conserve 30% of global land and 30% of the oceans by 2030.
 
+## Which countries made new net-zero pledges at COP26?
+
 Many countries made significant announcements outside the main negotiations. India committed to reaching net-zero by 2070 and backed it up with sub-targets to ensure meeting its North Star. A group of 46 countries, including the U.K., Canada, Poland, and Vietnam, made commitments to phase out domestic coal. A further 29 countries, including the U.K., Canada, Germany, and Italy, committed to ending new direct international public support for unabated fossil fuels by the end of 2022 and redirecting this investment to clean energy. 
 
 Besides, non-governmental contributors such as investors, businesses, cities, and national regions joined initiatives to drive economic transformation. Over 2,000 companies committed to developing science-based targets for reducing their emissions and releasing new guidance for companies to set creditable net-zero targets for corporates. More than 400 financial companies controlling over 130 trillion USD in assets committed to aligning their portfolios to net-zero by 2030. This new alliance makes a clear statement that banks, asset managers, and asset owners fully recognize the business impact on climate change and the significant risks of investing in the high-carbon, polluting economy. Over 1,000 cities and local governments joined the Cities Race to Zero to raise climate action to limit global temperature rise to 1.5 degrees C. And around 41 cities, 34 countries, and 11 significant automakers agreed to work toward selling only zero-emission vehicles globally by 2040, and by no later than 2035 in leading markets.  
+
+## What was the outcome of COP26?
 
 The primary outcome of COP26 for me personally would be hope. Our times are marked by uncertainty, mistrust, and escalating climate impacts. However, COP26 has affirmed just how essential collective global action is to address the climate crisis. While we are not yet on track, the progress made over the last year and at the climate summit offered bright spots and a solid foundation to build upon. This progress demonstrates that the Paris Agreement mechanisms to strengthen ambition and finance are working, albeit imperfectly and not yet at the pace we need.  
 
